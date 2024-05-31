@@ -1,0 +1,7 @@
+1. Aplico las etiquetas meta en mi proyecto ( description, keywords).
+2. Utilizo la etiqueta <title>.
+3. Incluyo el atributo alt, para proporcionar texto que describa el contenido.
+4. Hago uso estructurado de las etiquetas semánticas.
+5. Agrego enlaces a redes sociales en el footer.
+6. Mejoro la calidad de las imágenes con Upscale
+7. Uso estructurado de h1,h2,h3

@@ -1,0 +1,269 @@
+.banner {
+  background-color: #007bff;
+  color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+  z-index: 2;
+  position: sticky;
+}
+.banner h1 {
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.menu {
+  background-color: #333;
+  overflow: hidden;
+}
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container-item {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 100px;
+  color: antiquewhite;
+}
+@media (max-width: 600px) {
+  .container-item {
+    gap: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #007bff;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+@media (max-width: 500px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+.texto-superpuesto p {
+  margin-bottom: 0;
+  font-size: 1em;
+}
+@media screen and (max-width: 1000px) {
+  .texto-superpuesto p {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 690px) {
+  .texto-superpuesto {
+    font-size: 0.5em;
+    top: 50%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .texto-superpuesto {
+    font-size: 0.4em;
+    top: 40%;
+  }
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #007bff;
+  font-size: 50px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+
+.item {
+  border-radius: 10px;
+  background-color: #007bff;
+}
+.item:hover {
+  box-shadow: 0px 10px 20px #333;
+}
+
+.info-product {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 30px;
+}
+
+button {
+  background-color: #333;
+  color: antiquewhite;
+  border: none;
+  padding: 10px;
+}
+
+item img {
+  width: 80%;
+  height: 100px;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+}
+
+iframe {
+  padding: 50px 200px 100px 200px;
+}
+@media (max-width: 700px) {
+  iframe {
+    padding: 100px;
+  }
+}
+@media (max-width: 540px) {
+  iframe {
+    padding: 100px;
+  }
+}
+@media (max-width: 440px) {
+  iframe {
+    width: 100%;
+    padding: 50px;
+  }
+}
+
+.footer-social ul li a i {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #fab570;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+footer img {
+  width: 50px;
+  border-radius: 18px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container .footer-text p {
+  margin: 0 auto;
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    padding: 0 20px;
+  }
+}
+
+.about-us {
+  background-color: #f2f2f2;
+  padding: 50px 0 150px 0;
+}
+.about-us .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-us .container h2 {
+  font-size: 36px;
+  color: #333;
+}
+.about-us .container p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.phone-section {
+  padding: 40px 0;
+}
+.phone-section .phone-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.phone-section .phone-container .phone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.phone-section .phone-container .phone-grid .phone-item {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 30px;
+}
+.phone-section .phone-container .phone-grid .phone-item img {
+  max-width: 100%;
+  height: auto;
+}
+.phone-section .phone-container .phone-grid .phone-item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: antiquewhite;
+}
+.phone-section .phone-container .phone-grid .phone-item p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+.phone-section .phone-container .phone-grid .phone-item:hover {
+  box-shadow: 0px 10px 20px #333;
+}
+
+#contact-phone-planet {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slide-in 0.5s ease-out;
+}
+@media screen and (max-width: 630px) {
+  #contact-phone-planet {
+    margin: 50px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
